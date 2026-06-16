@@ -12,7 +12,7 @@ This repository contains a high-precision Python implementation for simulating t
 The motion of a simple pendulum without damping is governed by the second-order non-linear differential equation:
 $$\frac{d^2\theta}{dt^2} + \frac{g}{L}\sin(\theta) = 0$$
 
-To solve this numerically, the equation is decomposed into a system of two first-order Ordinary Differential Equations (ODEs). We implement the **4th-order Runge-Kutta (RK4)** integration technique, which offers a robust balance between computational efficiency and local truncation error ($O(\Delta t^5)$).
+To solve this numerically, the equation is decomposed into a system of two first-order Ordinary Differential Equations (ODEs). We implement the **4th-order Runge-Kutta (RK4)** integration technique, which offers a robust balance between computational efficiency and local truncation error $(O(\Delta t^5))$.
 
 ## 🛠️ Tech Stack & Dependencies
 - **Language:** Python 3.x
